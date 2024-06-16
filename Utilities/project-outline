@@ -1,0 +1,50 @@
+- Create the project environment (Repository, Virtual environment, version control)
+1. Business Understanding
+    - Problem Statement
+    - Goal and Objectives
+    - Stakeholders
+    - Key Metrics and Success Criteria
+    - Hypothesis (Null and Alternate)
+    - Analytical Questions
+    - Scope and Constraints
+    - More Information (If applicable)
+2. Data Understanding
+    1. Importation
+    2. Load Dataset
+    3. EDA
+         1. Data Quality Assessment & Exploring data (Info, Duplicate, null values, describe)
+         2. Univariate 
+         3. Bi-variate
+         4. Multi-variate Analysis
+    4. Answer Analytical Questions with visualizations
+    5. Test hypothesis
+    6. Give your insights
+3. Data Preparation
+    1. Split data set into x,y
+    2. Split data into training and evaluation
+    3. Feature Engineering (Create New Features, (binning and bucketing), Handling Missing Data, Encoding, Standardization, Normalization, Scaling)
+      a. Create a pipeline to preprocess the data
+          1. Separate input features into numeric and categorical for different pipelines
+          2. Handle missing values using imputation techniques
+          3. Scaling or normalize numeric features
+          4. Encode categorical features
+          5. Transformations for skewed data (log, power, box-cox, custom etc)
+          6. Balance dataset (depending on what you see)
+    4. Encode label/target
+4. Modeling
+    1. Fit data to the pipeline and train a model
+        a. Train model 1 - Distance based model
+        b. Train model 2 - Gradient Descent model
+        c. Train model 3 - Tree based model
+        d. Train model 4 - Neural Network
+5. Evaluation
+   1. Advanced Model Ealuation an Visualization Model Performance: (ROC curves, AUC, precision-recall curves, and confusion matrix)
+   2. Feature Importance and Selection
+   3. Hyperparameter Tuning: (GridSearchCV, RandomizedSearchCV, or Bayesian optimization)
+   4. Final model comparison and selection: (Consider trade-offs and choose most appropriate)
+   5. Retrain Model with best parameters
+   6. Business Impact Assessment and Documentation of the Model (How does what you choose affect the business)
+   7. Model Persistance
+6. Deployment (Not applicable in this project)
+   1. Deployment Strategy
+   2. Model Monitoring and Maintenance
